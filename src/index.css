@@ -61,7 +61,6 @@
 
     /* Professional Shadows */
     --shadow-healthcare: 0 10px 30px -10px hsl(var(--healthcare-blue) / 0.3);
-    --shadow-soft: 0 4px 20px -4px hsl(0 0% 0% / 0.1);
 
     /* Animations */
     --transition-healthcare: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -139,7 +138,7 @@
   }
 
   .healthcare-card {
-    @apply bg-card rounded-lg p-6 shadow-soft transition-all duration-300 hover:shadow-lg;
+    @apply bg-card rounded-lg p-6 shadow-sm transition-all duration-300 hover:shadow-lg;
   }
 
   .healthcare-button-primary {
