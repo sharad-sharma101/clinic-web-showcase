@@ -142,7 +142,7 @@
   }
 
   .healthcare-button-primary {
-    @apply bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium transition-all duration-300 hover:opacity-90 shadow-healthcare;
+    @apply bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium transition-all duration-300 hover:opacity-90 shadow-md;
   }
 
   .healthcare-nav {
